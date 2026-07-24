@@ -41,6 +41,8 @@ README for the rationale and the point-to-value mapping.
 
 > Develop a deep understanding of users and the problem the service is trying to solve for them, looking at the whole context of what users are trying to achieve and not just their interaction with government.
 
+*Derives from:* INT-0001
+
 **source_ref**: Point 1
 <!-- tl:end -->
 
@@ -58,6 +60,8 @@ README for the rationale and the point-to-value mapping.
 **UR-0002 — Solve a whole problem for users** — `user_requirement`, status `approved`
 
 > Work towards a service that solves a whole problem for users, designed around their needs rather than around technologies or pre-selected solutions, working with other teams and organisations where necessary.
+
+*Derives from:* INT-0001
 
 **source_ref**: Point 2
 <!-- tl:end -->
@@ -92,6 +96,8 @@ README for the rationale and the point-to-value mapping.
 
 > Work towards a service that meets users' needs across all the channels they need, which could be a mix of online, phone, paper and face to face.
 
+*Derives from:* INT-0002
+
 **source_ref**: Point 3
 <!-- tl:end -->
 
@@ -111,6 +117,8 @@ README for the rationale and the point-to-value mapping.
 
 > Build a service that is simple, intuitive and comprehensible, and test it with users to make sure it works for them.
 
+*Derives from:* INT-0002
+
 **source_ref**: Point 4
 <!-- tl:end -->
 
@@ -129,6 +137,8 @@ README for the rationale and the point-to-value mapping.
 **UR-0005 — Make sure everyone can use the service** — `user_requirement`, status `approved`
 
 > Provide a service that everyone can use, including disabled people and people with other legally protected characteristics, and people who do not have access to the internet or lack the skills or confidence to use it.
+
+*Derives from:* INT-0002
 
 **source_ref**: Point 5
 <!-- tl:end -->
@@ -159,6 +169,8 @@ README for the rationale and the point-to-value mapping.
 
 > Put together a multidisciplinary team with a diverse mix of skills and expertise, including the people involved in decision making, so the team is accountable and can respond quickly to what it learns about users.
 
+*Derives from:* INT-0003
+
 **source_ref**: Point 6
 <!-- tl:end -->
 
@@ -178,6 +190,8 @@ README for the rationale and the point-to-value mapping.
 
 > Use agile methods to get the service in front of real users as soon as possible, observing how they use it and iterating based on what is learned, reducing the risk of delivering the wrong thing.
 
+*Derives from:* INT-0003
+
 **source_ref**: Point 7
 <!-- tl:end -->
 
@@ -195,6 +209,8 @@ README for the rationale and the point-to-value mapping.
 **UR-0008 — Iterate and improve frequently** — `user_requirement`, status `approved`
 
 > Make sure the service has the capacity, resources and technical flexibility to iterate and improve frequently — not just in early development but throughout the life of the service.
+
+*Derives from:* INT-0003
 
 **source_ref**: Point 8
 <!-- tl:end -->
@@ -222,6 +238,8 @@ README for the rationale and the point-to-value mapping.
 
 > Understand how to manage risks throughout the delivery lifecycle and put robust security measures in place to protect against potential threats while respecting users' privacy.
 
+*Derives from:* INT-0004
+
 **source_ref**: Point 9
 <!-- tl:end -->
 
@@ -244,6 +262,8 @@ README for the rationale and the point-to-value mapping.
 **UR-0014 — Operate a reliable service** — `user_requirement`, status `approved`
 
 > Minimise service downtime and have a plan to deal with it when it does happen, so the service is dependable for the people who rely on it.
+
+*Derives from:* INT-0004
 
 **source_ref**: Point 14
 <!-- tl:end -->
@@ -277,6 +297,8 @@ README for the rationale and the point-to-value mapping.
 
 > Work out what success looks like for the service and identify metrics that show what is working and what can be improved, combined with user research.
 
+*Derives from:* INT-0005
+
 **source_ref**: Point 10
 <!-- tl:end -->
 
@@ -294,6 +316,8 @@ README for the rationale and the point-to-value mapping.
 **UR-0011 — Choose the right tools and technology** — `user_requirement`, status `approved`
 
 > Choose tools and technology that let the team create a high-quality service in a cost-effective way, minimising the cost of changing direction in future.
+
+*Derives from:* INT-0005
 
 **source_ref**: Point 11
 <!-- tl:end -->
@@ -316,6 +340,8 @@ README for the rationale and the point-to-value mapping.
 
 > Because public services are built with public money, make the source code open and reusable unless there is a good reason not to — avoiding vendor lock-in and enabling reuse across government.
 
+*Derives from:* INT-0005
+
 **source_ref**: Point 12
 <!-- tl:end -->
 
@@ -333,6 +359,8 @@ README for the rationale and the point-to-value mapping.
 **UR-0013 — Use and contribute to open standards, common components and patterns** — `user_requirement`, status `approved`
 
 > Build on open standards and common components and patterns from inside and outside government, and contribute back what the team creates.
+
+*Derives from:* INT-0005
 
 **source_ref**: Point 13
 <!-- tl:end -->
