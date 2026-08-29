@@ -1,7 +1,8 @@
 uid: SR-0040
 type: system_requirement
 status: approved
-title: Identify metrics that show how well the service solves its intended...
+title: Identify metrics that show how well the service solves its intended problem and track
+  performance against them
 text: Identify metrics that show how well the service solves its intended problem and track
   performance against them.
 links:

@@ -1,7 +1,8 @@
 uid: SR-0009
 type: system_requirement
 status: approved
-title: Consider alternatives to building a service, such as publishing con...
+title: Consider alternatives to building a service, such as publishing content, running a
+  campaign, partnering, or making data or an API available
 text: Consider alternatives to building a service, such as publishing content, running a campaign,
   partnering, or making data or an API available.
 links:

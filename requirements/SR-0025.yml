@@ -1,7 +1,8 @@
 uid: SR-0025
 type: system_requirement
 status: approved
-title: Include expertise in how the service is delivered across the releva...
+title: Include expertise in how the service is delivered across the relevant offline channels
+  and the back-end systems it must integrate with
 text: Include expertise in how the service is delivered across the relevant offline channels
   and the back-end systems it must integrate with.
 links:

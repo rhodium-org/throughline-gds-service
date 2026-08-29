@@ -1,7 +1,8 @@
 uid: SR-0046
 type: system_requirement
 status: approved
-title: Consider the total cost of ownership and keep the freedom to change...
+title: Consider the total cost of ownership and keep the freedom to change direction later,
+  for example by using open standards to avoid vendor lock-in
 text: Consider the total cost of ownership and keep the freedom to change direction later,
   for example by using open standards to avoid vendor lock-in.
 links:

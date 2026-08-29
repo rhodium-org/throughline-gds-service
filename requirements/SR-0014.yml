@@ -1,7 +1,8 @@
 uid: SR-0014
 type: system_requirement
 status: approved
-title: Be able to test and change both digital and non-digital channels, c...
+title: Be able to test and change both digital and non-digital channels, coordinating online
+  changes with their offline impacts
 text: Be able to test and change both digital and non-digital channels, coordinating online
   changes with their offline impacts.
 links:

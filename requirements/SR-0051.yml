@@ -1,7 +1,8 @@
 uid: SR-0051
 type: system_requirement
 status: approved
-title: Recognise the limited exceptions (such as code tied to an unannounc...
+title: Recognise the limited exceptions (such as code tied to an unannounced government policy)
+  where code should not be published
 text: Recognise the limited exceptions (such as code tied to an unannounced government policy)
   where code should not be published.
 links:

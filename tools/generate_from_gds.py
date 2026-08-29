@@ -21,6 +21,7 @@ the YAML dumper, sidestepping throughline's colon-space plain-scalar trap.
 from __future__ import annotations
 
 import pathlib
+import re
 
 import yaml
 
@@ -335,6 +336,61 @@ POINTS = [
 ]
 
 
+_ABBREV = re.compile(
+    r"(?<![A-Za-z0-9])(?:e\.g|i\.e|etc|vs|cf|approx|resp|incl|Fig|No|Inc|Ltd)\.",
+    re.IGNORECASE,
+)
+
+
+def _mask_non_terminators(t: str) -> str:
+    """Blank out `.`/`!`/`?` that do not end a sentence, so the first real one is found.
+
+    Criterion prose is full of full stops that terminate nothing: abbreviations
+    (``e.g.``), dotted version numbers, and whole clauses parenthesised or quoted inside
+    a larger sentence. Each is replaced by a NUL of the same width, so offsets into the
+    masked string index the original unchanged.
+    """
+    chars = list(t)
+    for m in _ABBREV.finditer(t):
+        for i in range(m.start(), m.end()):
+            if chars[i] == ".":
+                chars[i] = "\x00"
+    s = "".join(chars)
+    s = re.sub(r"(?<=\d)\.(?=\d)", "\x00", s)                   # decimals: v1.5
+    s = re.sub(r"(?<=\b[A-Za-z])\.(?=[A-Za-z]\.)", "\x00", s)   # initialisms: U.S.
+    s = re.sub(r"(?<=\b[A-Za-z])\.(?=\s*[a-z])", "\x00", s)     # single letter + lower
+    out, depth, in_quote = list(s), 0, False
+    for i, ch in enumerate(s):
+        if ch == '"':
+            in_quote = not in_quote
+        elif ch in "([":
+            depth += 1
+        elif ch in ")]":
+            depth = max(0, depth - 1)
+        if (depth > 0 or in_quote) and out[i] in ".!?":
+            out[i] = "\x00"
+    return "".join(out)
+
+
+def short_title(text: str) -> str:
+    """A label for the criterion: its first complete sentence.
+
+    Deliberately uncapped. This replaced a blind character cap — ``crit[:67] + "..."``
+    — which cut 57 of the 81 titles mid-word and left labels such as
+    ``Use web analytics and other available data (such as call-centre dat...``: an
+    unclosed parenthesis and an ellipsis standing in for the rest of the sentence.
+    A title is cut at a sentence boundary or not at all, so most criteria (which are a
+    single sentence) become their own title in full. That is the intended outcome.
+
+    Satisfies throughline-source-quality REQ-0001 (a mechanically derived title is a
+    complete statement, never a truncated fragment) and REQ-0002 (deterministic).
+    """
+    t = text.strip()
+    t = (t[:1].upper() + t[1:]) if t else t
+    m = re.search(r"[.!?](?=\s|$)", _mask_non_terminators(t))
+    return (t[:m.start()] if m else t).strip().rstrip(" ,;:")
+
+
 def _dump(path: pathlib.Path, item: "dict[str, object]") -> None:
     with path.open("w", encoding="utf-8") as fh:
         yaml.safe_dump(
@@ -379,10 +435,8 @@ def main() -> None:
         for crit in criteria:
             sr_n += 1
             sr_uid = f"SR-{sr_n:04d}"
-            # Title: a short, testable label derived from the criterion's first clause.
-            short = crit.rstrip(".")
-            if len(short) > 70:
-                short = short[:67].rstrip() + "..."
+            # Title: the criterion's first complete sentence — never a truncation.
+            short = short_title(crit)
             sr = dict(
                 uid=sr_uid,
                 type="system_requirement",

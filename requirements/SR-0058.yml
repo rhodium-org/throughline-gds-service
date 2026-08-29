@@ -1,7 +1,8 @@
 uid: SR-0058
 type: system_requirement
 status: approved
-title: Carry out regular quality-assurance testing overseen by the service...
+title: Carry out regular quality-assurance testing overseen by the service team, not by automated
+  tools alone
 text: Carry out regular quality-assurance testing overseen by the service team, not by automated
   tools alone.
 links:

@@ -1,7 +1,7 @@
 uid: SR-0061
 type: system_requirement
 status: approved
-title: Monitor user outcomes and ethical issues such as bias, not only tec...
+title: Monitor user outcomes and ethical issues such as bias, not only technical faults
 text: Monitor user outcomes and ethical issues such as bias, not only technical faults.
 links:
 - target: UR-0014

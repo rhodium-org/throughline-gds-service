@@ -1,7 +1,8 @@
 uid: SR-0047
 type: system_requirement
 status: approved
-title: Have an effective strategy for managing any legacy technology the s...
+title: Have an effective strategy for managing any legacy technology the service depends on
+  or integrates with
 text: Have an effective strategy for managing any legacy technology the service depends on
   or integrates with.
 links:

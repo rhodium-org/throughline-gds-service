@@ -1,7 +1,8 @@
 uid: SR-0011
 type: system_requirement
 status: approved
-title: Minimise the number of times users have to provide the same informa...
+title: Minimise the number of times users have to provide the same information to government,
+  while respecting their privacy
 text: Minimise the number of times users have to provide the same information to government,
   while respecting their privacy.
 links:

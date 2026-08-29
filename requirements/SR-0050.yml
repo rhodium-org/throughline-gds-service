@@ -1,7 +1,8 @@
 uid: SR-0050
 type: system_requirement
 status: approved
-title: Retain ownership of the intellectual property for new source code a...
+title: Retain ownership of the intellectual property for new source code and license it for
+  reuse
 text: Retain ownership of the intellectual property for new source code and license it for
   reuse.
 links:

@@ -1,7 +1,8 @@
 uid: SR-0003
 type: system_requirement
 status: approved
-title: Use web analytics and other available data (such as call-centre dat...
+title: Use web analytics and other available data (such as call-centre data or third-party
+  services) to deepen understanding of the problem
 text: Use web analytics and other available data (such as call-centre data or third-party
   services) to deepen understanding of the problem.
 links:

@@ -1,7 +1,7 @@
 uid: SR-0039
 type: system_requirement
 status: approved
-title: Anticipate and manage vulnerabilities and regularly test security c...
+title: Anticipate and manage vulnerabilities and regularly test security controls
 text: Anticipate and manage vulnerabilities and regularly test security controls.
 links:
 - target: UR-0009
