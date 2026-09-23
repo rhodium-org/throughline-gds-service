@@ -8,7 +8,7 @@ full terms.
 
 This repository is a throughline *source*: a requirements graph, not a program. It
 re-expresses the UK Government Digital Service (GDS) Service Standard as a grounded
-IDD graph so consuming projects can compose it with throughline-compose.
+IDD graph so consuming projects can compose it with throughline.
 
 The GDS Service Standard is published by the UK Government on GOV.UK and is Crown
 copyright, made available under the Open Government Licence v3.0 (OGL). The point
