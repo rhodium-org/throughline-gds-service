@@ -1,3 +1,4 @@
 prefix: UR
 digits: 4
 title: Service Standard points
+type: user_requirement
