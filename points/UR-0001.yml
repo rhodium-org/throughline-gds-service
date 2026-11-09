@@ -1,10 +1,11 @@
 uid: UR-0001
 type: user_requirement
-status: approved
+status: proposed
 title: Understand users and their needs
-text: Develop a deep understanding of users and the problem the service is trying to solve
-  for them, looking at the whole context of what users are trying to achieve and not just
-  their interaction with government.
+text: Develop a deep understanding of users and the problem the service is trying
+  to solve for them, looking at the whole context of what users are trying to achieve
+  and not just their interaction with government.
+normative: true
 links:
 - target: INT-0001
   type: derives_from

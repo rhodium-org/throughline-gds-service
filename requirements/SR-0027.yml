@@ -1,10 +1,11 @@
 uid: SR-0027
 type: system_requirement
-status: approved
+status: proposed
 title: Where the team works with contractors and outside suppliers, do so on a sustainable
   basis
 text: Where the team works with contractors and outside suppliers, do so on a sustainable
   basis.
+normative: true
 links:
 - target: UR-0006
   type: implements

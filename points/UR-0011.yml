@@ -1,9 +1,10 @@
 uid: UR-0011
 type: user_requirement
-status: approved
+status: proposed
 title: Choose the right tools and technology
-text: Choose tools and technology that let the team create a high-quality service in a cost-effective
-  way, minimising the cost of changing direction in future.
+text: Choose tools and technology that let the team create a high-quality service
+  in a cost-effective way, minimising the cost of changing direction in future.
+normative: true
 links:
 - target: INT-0005
   type: derives_from

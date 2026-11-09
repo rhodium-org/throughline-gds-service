@@ -1,10 +1,11 @@
 uid: SR-0022
 type: system_requirement
-status: approved
-title: Carry out research with participants who represent the potential audience, including
-  people with access needs
-text: Carry out research with participants who represent the potential audience, including
-  people with access needs.
+status: proposed
+title: Carry out research with participants who represent the potential audience,
+  including people with access needs
+text: Carry out research with participants who represent the potential audience,
+  including people with access needs.
+normative: true
 links:
 - target: UR-0005
   type: implements

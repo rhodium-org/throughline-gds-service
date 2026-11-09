@@ -1,10 +1,11 @@
 uid: SR-0051
 type: system_requirement
-status: approved
-title: Recognise the limited exceptions (such as code tied to an unannounced government policy)
-  where code should not be published
-text: Recognise the limited exceptions (such as code tied to an unannounced government policy)
-  where code should not be published.
+status: proposed
+title: Recognise the limited exceptions (such as code tied to an unannounced government
+  policy) where code should not be published
+text: Recognise the limited exceptions (such as code tied to an unannounced government
+  policy) where code should not be published.
+normative: true
 links:
 - target: UR-0012
   type: implements

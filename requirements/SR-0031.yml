@@ -1,10 +1,11 @@
 uid: SR-0031
 type: system_requirement
-status: approved
-title: Retain the capacity, resources and technical flexibility to make substantial improvements
-  throughout the life of the service, not only in its early phases
-text: Retain the capacity, resources and technical flexibility to make substantial improvements
-  throughout the life of the service, not only in its early phases.
+status: proposed
+title: Retain the capacity, resources and technical flexibility to make substantial
+  improvements throughout the life of the service, not only in its early phases
+text: Retain the capacity, resources and technical flexibility to make substantial
+  improvements throughout the life of the service, not only in its early phases.
+normative: true
 links:
 - target: UR-0008
   type: implements

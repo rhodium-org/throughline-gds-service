@@ -1,10 +1,11 @@
 uid: SR-0034
 type: system_requirement
-status: approved
-title: Have a plan and budget to manage security across the life of the service, including
-  responding to new threats and changed requirements
+status: proposed
+title: Have a plan and budget to manage security across the life of the service,
+  including responding to new threats and changed requirements
 text: Have a plan and budget to manage security across the life of the service, including
   responding to new threats and changed requirements.
+normative: true
 links:
 - target: UR-0009
   type: implements

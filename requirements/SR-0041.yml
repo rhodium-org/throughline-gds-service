@@ -1,8 +1,9 @@
 uid: SR-0041
 type: system_requirement
-status: approved
+status: proposed
 title: Use performance data to decide what to fix and how to improve the service
 text: Use performance data to decide what to fix and how to improve the service.
+normative: true
 links:
 - target: UR-0010
   type: implements

@@ -1,10 +1,11 @@
 uid: UR-0012
 type: user_requirement
-status: approved
+status: proposed
 title: Make new source code open
-text: Because public services are built with public money, make the source code open and reusable
-  unless there is a good reason not to — avoiding vendor lock-in and enabling reuse across
-  government.
+text: Because public services are built with public money, make the source code open
+  and reusable unless there is a good reason not to — avoiding vendor lock-in and
+  enabling reuse across government.
+normative: true
 links:
 - target: INT-0005
   type: derives_from

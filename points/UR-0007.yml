@@ -1,10 +1,11 @@
 uid: UR-0007
 type: user_requirement
-status: approved
+status: proposed
 title: Use agile ways of working
-text: Use agile methods to get the service in front of real users as soon as possible, observing
-  how they use it and iterating based on what is learned, reducing the risk of delivering
-  the wrong thing.
+text: Use agile methods to get the service in front of real users as soon as possible,
+  observing how they use it and iterating based on what is learned, reducing the
+  risk of delivering the wrong thing.
+normative: true
 links:
 - target: INT-0003
   type: derives_from

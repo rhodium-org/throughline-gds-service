@@ -1,8 +1,9 @@
 uid: SR-0057
 type: system_requirement
-status: approved
+status: proposed
 title: Deploy software changes frequently without significant downtime
 text: Deploy software changes frequently without significant downtime.
+normative: true
 links:
 - target: UR-0014
   type: implements

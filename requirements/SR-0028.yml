@@ -1,8 +1,9 @@
 uid: SR-0028
 type: system_requirement
-status: approved
+status: proposed
 title: Work in an agile way — inspecting, learning and adapting as the team goes
 text: Work in an agile way — inspecting, learning and adapting as the team goes.
+normative: true
 links:
 - target: UR-0007
   type: implements

@@ -1,10 +1,13 @@
 uid: SR-0048
 type: system_requirement
-status: approved
-title: Assess how technology choices affect user experience and accessibility, and avoid choices
-  that compromise the reliability of information or the quality of decisions
-text: Assess how technology choices affect user experience and accessibility, and avoid choices
-  that compromise the reliability of information or the quality of decisions.
+status: proposed
+title: Assess how technology choices affect user experience and accessibility, and
+  avoid choices that compromise the reliability of information or the quality of
+  decisions
+text: Assess how technology choices affect user experience and accessibility, and
+  avoid choices that compromise the reliability of information or the quality of
+  decisions.
+normative: true
 links:
 - target: UR-0011
   type: implements

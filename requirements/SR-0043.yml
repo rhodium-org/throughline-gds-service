@@ -1,10 +1,11 @@
 uid: SR-0043
 type: system_requirement
-status: approved
-title: Choose tools and technology that let the team build and operate a high-quality service
-  cost-effectively, using automation where feasible
-text: Choose tools and technology that let the team build and operate a high-quality service
-  cost-effectively, using automation where feasible.
+status: proposed
+title: Choose tools and technology that let the team build and operate a high-quality
+  service cost-effectively, using automation where feasible
+text: Choose tools and technology that let the team build and operate a high-quality
+  service cost-effectively, using automation where feasible.
+normative: true
 links:
 - target: UR-0011
   type: implements

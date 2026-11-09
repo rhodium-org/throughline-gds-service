@@ -1,10 +1,11 @@
 uid: SR-0055
 type: system_requirement
-status: approved
-title: Use common components and patterns and share any new ones created or adapted, for example
-  by contributing to the GOV.UK Design System
-text: Use common components and patterns and share any new ones created or adapted, for example
-  by contributing to the GOV.UK Design System.
+status: proposed
+title: Use common components and patterns and share any new ones created or adapted,
+  for example by contributing to the GOV.UK Design System
+text: Use common components and patterns and share any new ones created or adapted,
+  for example by contributing to the GOV.UK Design System.
+normative: true
 links:
 - target: UR-0013
   type: implements

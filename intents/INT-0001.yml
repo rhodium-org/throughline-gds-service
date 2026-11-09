@@ -1,9 +1,10 @@
 uid: INT-0001
 type: intent
-status: approved
+status: proposed
 title: Services are led by real user needs, not assumptions
-text: Government services start from a real, evidenced user need — understood in the user's
-  whole context — rather than from an assumption, a policy artefact, or a pre-chosen technology.
+text: Government services start from a real, evidenced user need — understood in
+  the user's whole context — rather than from an assumption, a policy artefact, or
+  a pre-chosen technology.
 normative: false
 attrs:
   source_ref: GDS Service Standard — user-led

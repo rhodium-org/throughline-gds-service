@@ -1,10 +1,11 @@
 uid: SR-0045
 type: system_requirement
-status: approved
-title: Understand how the chosen technology works, including emerging technologies and artificial
-  intelligence
-text: Understand how the chosen technology works, including emerging technologies and artificial
-  intelligence.
+status: proposed
+title: Understand how the chosen technology works, including emerging technologies
+  and artificial intelligence
+text: Understand how the chosen technology works, including emerging technologies
+  and artificial intelligence.
+normative: true
 links:
 - target: UR-0011
   type: implements

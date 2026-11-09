@@ -1,10 +1,11 @@
 uid: SR-0054
 type: system_requirement
-status: approved
-title: Maximise flexibility in the use of technology, for example by using and creating APIs
-  and, where possible, authoritative sources of data
-text: Maximise flexibility in the use of technology, for example by using and creating APIs
-  and, where possible, authoritative sources of data.
+status: proposed
+title: Maximise flexibility in the use of technology, for example by using and creating
+  APIs and, where possible, authoritative sources of data
+text: Maximise flexibility in the use of technology, for example by using and creating
+  APIs and, where possible, authoritative sources of data.
+normative: true
 links:
 - target: UR-0013
   type: implements

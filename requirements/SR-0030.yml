@@ -1,10 +1,11 @@
 uid: SR-0030
 type: system_requirement
-status: approved
-title: Where appropriate and proportionate, test the service with the minister or relevant
-  senior stakeholder
-text: Where appropriate and proportionate, test the service with the minister or relevant
-  senior stakeholder.
+status: proposed
+title: Where appropriate and proportionate, test the service with the minister or
+  relevant senior stakeholder
+text: Where appropriate and proportionate, test the service with the minister or
+  relevant senior stakeholder.
+normative: true
 links:
 - target: UR-0007
   type: implements

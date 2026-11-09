@@ -1,8 +1,11 @@
 uid: SR-0052
 type: system_requirement
-status: approved
-title: Use open standards, and propose a new open standard where none already meets the need
-text: Use open standards, and propose a new open standard where none already meets the need.
+status: proposed
+title: Use open standards, and propose a new open standard where none already meets
+  the need
+text: Use open standards, and propose a new open standard where none already meets
+  the need.
+normative: true
 links:
 - target: UR-0013
   type: implements

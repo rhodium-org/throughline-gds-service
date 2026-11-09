@@ -1,9 +1,10 @@
 uid: UR-0014
 type: user_requirement
-status: approved
+status: proposed
 title: Operate a reliable service
-text: Minimise service downtime and have a plan to deal with it when it does happen, so the
-  service is dependable for the people who rely on it.
+text: Minimise service downtime and have a plan to deal with it when it does happen,
+  so the service is dependable for the people who rely on it.
+normative: true
 links:
 - target: INT-0004
   type: derives_from

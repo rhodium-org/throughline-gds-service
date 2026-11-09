@@ -1,9 +1,10 @@
 uid: UR-0004
 type: user_requirement
-status: approved
+status: proposed
 title: Make the service simple to use
-text: Build a service that is simple, intuitive and comprehensible, and test it with users
-  to make sure it works for them.
+text: Build a service that is simple, intuitive and comprehensible, and test it with
+  users to make sure it works for them.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

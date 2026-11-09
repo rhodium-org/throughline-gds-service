@@ -1,9 +1,11 @@
 uid: UR-0008
 type: user_requirement
-status: approved
+status: proposed
 title: Iterate and improve frequently
-text: Make sure the service has the capacity, resources and technical flexibility to iterate
-  and improve frequently — not just in early development but throughout the life of the service.
+text: Make sure the service has the capacity, resources and technical flexibility
+  to iterate and improve frequently — not just in early development but throughout
+  the life of the service.
+normative: true
 links:
 - target: INT-0003
   type: derives_from

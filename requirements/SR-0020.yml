@@ -1,8 +1,10 @@
 uid: SR-0020
 type: system_requirement
-status: approved
-title: Meet accessibility standards for both the online and offline parts of the service
+status: proposed
+title: Meet accessibility standards for both the online and offline parts of the
+  service
 text: Meet accessibility standards for both the online and offline parts of the service.
+normative: true
 links:
 - target: UR-0005
   type: implements

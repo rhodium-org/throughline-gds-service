@@ -1,10 +1,11 @@
 uid: SR-0038
 type: system_requirement
-status: approved
-title: Maintain an assessment of security risks and mitigate threats with appropriate protections,
-  working with business and information risk teams
-text: Maintain an assessment of security risks and mitigate threats with appropriate protections,
-  working with business and information risk teams.
+status: proposed
+title: Maintain an assessment of security risks and mitigate threats with appropriate
+  protections, working with business and information risk teams
+text: Maintain an assessment of security risks and mitigate threats with appropriate
+  protections, working with business and information risk teams.
+normative: true
 links:
 - target: UR-0009
   type: implements

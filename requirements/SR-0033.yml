@@ -1,8 +1,9 @@
 uid: SR-0033
 type: system_requirement
-status: approved
+status: proposed
 title: Make senior leaders who are accountable for security aware of the risks
 text: Make senior leaders who are accountable for security aware of the risks.
+normative: true
 links:
 - target: UR-0009
   type: implements

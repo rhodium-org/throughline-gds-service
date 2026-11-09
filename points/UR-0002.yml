@@ -1,10 +1,11 @@
 uid: UR-0002
 type: user_requirement
-status: approved
+status: proposed
 title: Solve a whole problem for users
-text: Work towards a service that solves a whole problem for users, designed around their
-  needs rather than around technologies or pre-selected solutions, working with other teams
-  and organisations where necessary.
+text: Work towards a service that solves a whole problem for users, designed around
+  their needs rather than around technologies or pre-selected solutions, working
+  with other teams and organisations where necessary.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
